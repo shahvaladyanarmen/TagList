@@ -15,7 +15,7 @@ extension TagsEndPoint: MultiTargetType {
     var path: String {
         switch self {
         case .tagList:
-            return "2.3/tag"
+            return "2.3/tags"
         }
     }
     
